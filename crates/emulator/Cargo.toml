@@ -11,6 +11,8 @@ keywords = { workspace = true }
 [dependencies]
 enum_dispatch.workspace = true
 
+emulator-derive = { path = "../emulator-derive" }
+
 [dev-dependencies]
 serde.workspace = true
 serde_json.workspace = true
